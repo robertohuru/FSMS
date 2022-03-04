@@ -95,3 +95,23 @@
 2022/03/04 03:01:45 [notice] 1#1: start worker process 32
 2022/03/04 03:01:45 [notice] 1#1: start worker process 33
 2022/03/04 03:01:45 [notice] 1#1: start worker process 34
+2022/03/04 03:02:33 [error] 23#23: *7 open() "/var/www/html/settings" failed (2: No such file or directory), client: 172.21.0.1, server: , request: "GET /settings HTTP/1.1", host: "localhost", referrer: "http://localhost/dash"
+2022/03/04 03:02:38 [error] 23#23: *11 open() "/var/www/html/dash" failed (2: No such file or directory), client: 172.21.0.1, server: , request: "GET /dash HTTP/1.1", host: "localhost"
+2022/03/04 03:02:39 [error] 23#23: *11 open() "/var/www/html/dash" failed (2: No such file or directory), client: 172.21.0.1, server: , request: "GET /dash HTTP/1.1", host: "localhost"
+2022/03/04 03:03:04 [error] 23#23: *14 open() "/var/www/html/dash" failed (2: No such file or directory), client: 172.21.0.1, server: , request: "GET /dash HTTP/1.1", host: "localhost"
+2022/03/04 03:03:05 [error] 23#23: *16 open() "/var/www/html/dash" failed (2: No such file or directory), client: 172.21.0.1, server: , request: "GET /dash HTTP/1.1", host: "localhost"
+2022/03/04 03:03:06 [error] 23#23: *16 open() "/var/www/html/dash" failed (2: No such file or directory), client: 172.21.0.1, server: , request: "GET /dash HTTP/1.1", host: "localhost"
+2022/03/04 03:03:06 [error] 23#23: *16 open() "/var/www/html/dash" failed (2: No such file or directory), client: 172.21.0.1, server: , request: "GET /dash HTTP/1.1", host: "localhost"
+2022/03/04 03:03:07 [error] 23#23: *16 open() "/var/www/html/dash" failed (2: No such file or directory), client: 172.21.0.1, server: , request: "GET /dash HTTP/1.1", host: "localhost"
+2022/03/04 03:03:10 [error] 23#23: *16 open() "/var/www/html/dash" failed (2: No such file or directory), client: 172.21.0.1, server: , request: "GET /dash HTTP/1.1", host: "localhost"
+2022/03/04 03:05:06 [error] 23#23: *28 open() "/var/www/html/dash" failed (2: No such file or directory), client: 172.21.0.1, server: , request: "GET /dash HTTP/1.1", host: "localhost"
+2022/03/04 03:05:08 [error] 23#23: *28 open() "/var/www/html/dash" failed (2: No such file or directory), client: 172.21.0.1, server: , request: "GET /dash HTTP/1.1", host: "localhost"
+2022/03/04 03:05:15 [error] 23#23: *30 open() "/var/www/html/dash" failed (2: No such file or directory), client: 172.21.0.1, server: , request: "GET /dash HTTP/1.1", host: "localhost"
+2022/03/04 03:05:59 [error] 23#23: *32 open() "/var/www/html/dash" failed (2: No such file or directory), client: 172.21.0.1, server: , request: "GET /dash HTTP/1.1", host: "localhost"
+2022/03/04 03:06:00 [error] 23#23: *32 open() "/var/www/html/dash" failed (2: No such file or directory), client: 172.21.0.1, server: , request: "GET /dash HTTP/1.1", host: "localhost"
+2022/03/04 03:06:00 [error] 23#23: *32 open() "/var/www/html/dash" failed (2: No such file or directory), client: 172.21.0.1, server: , request: "GET /dash HTTP/1.1", host: "localhost"
+2022/03/04 03:06:08 [error] 23#23: *35 open() "/var/www/html/dash" failed (2: No such file or directory), client: 172.21.0.1, server: , request: "GET /dash HTTP/1.1", host: "localhost"
+2022/03/04 03:06:18 [error] 23#23: *38 open() "/var/www/html/settings" failed (2: No such file or directory), client: 172.21.0.1, server: , request: "GET /settings HTTP/1.1", host: "localhost", referrer: "http://localhost/dash"
+2022/03/04 03:06:26 [error] 23#23: *38 open() "/var/www/html/dash" failed (2: No such file or directory), client: 172.21.0.1, server: , request: "GET /dash HTTP/1.1", host: "localhost"
+2022/03/04 03:06:35 [error] 23#23: *43 open() "/var/www/html/settings" failed (2: No such file or directory), client: 172.21.0.1, server: , request: "GET /settings HTTP/1.1", host: "localhost", referrer: "http://localhost/dash"
+2022/03/04 03:06:39 [error] 23#23: *46 open() "/var/www/html/dash" failed (2: No such file or directory), client: 172.21.0.1, server: , request: "GET /dash HTTP/1.1", host: "localhost", referrer: "http://localhost/dash"
