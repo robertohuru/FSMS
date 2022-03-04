@@ -1,0 +1,37 @@
+version: "3.8"
+
+networks:
+    fsms:
+        driver: bridge
+        ipam:
+            driver: default
+            
+services:
+    api:
+        build:
+            context: ./backend
+        command: >
+                sh -c "python manage.py migrate && gunicorn main.wsgi:application --bind 0.0.0.0:9000"
+        container_name: api
+        hostname: api
+        volumes:
+            - ./backend:/home/app
+        env_file:
+            - ./.env        
+        networks:
+            - fsms
+
+    nginx:
+        build:
+            context: ./frontend
+            dockerfile: Dockerfile
+        container_name: nginx-fsms
+        ports:
+            - "80:80"
+        volumes:
+            - ./docker/nginx/log:/var/log/nginx
+            - ./frontend/build:/var/www/html
+        depends_on:
+            - api
+        networks:
+            - fsms

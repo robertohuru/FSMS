@@ -1,0 +1,10 @@
+{% autoescape off %}
+<p>Dear Sir/Madam,</p>
+
+<p>This is a notification for food insecurity in your country {{country}}.</p>
+
+<br/>
+<p>Sincerely,</p>
+<p>WFP</p>
+
+{% endautoescape %}

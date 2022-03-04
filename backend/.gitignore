@@ -1,0 +1,15 @@
+.venv
+.vscode
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Unit test
+.pytest_cache/
+
+# production
+/build
+
+
